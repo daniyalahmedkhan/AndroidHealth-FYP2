@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/silver"
+    >
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="top"
+
+        >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/blood3"
+            android:src="@drawable/blood3"/>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:layout_marginTop="205dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+
+            <TextView
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="-30dp"
+                android:layout_width="90dp"
+                android:layout_height="match_parent"
+                android:id="@+id/dfnametxt"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:text="First Name:" />
+
+        <TextView
+            android:layout_width="90dp"
+            android:layout_height="match_parent"
+            android:id="@+id/dfname"
+            android:gravity="center"
+            android:textColor="@color/black"/>
+
+            <TextView
+                android:id="@+id/dlnametxt"
+                android:layout_width="90dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="-180dp"
+                android:layout_marginTop="25dp"
+                android:gravity="center"
+                android:text="Last Name:"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+
+            <TextView
+            android:layout_width="90dp"
+            android:layout_height="match_parent"
+            android:id="@+id/dlname"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="15dp"/>
+
+        </LinearLayout>
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+        android:layout_marginTop="40dp">
+
+        <TextView
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="-22dp"
+            android:layout_width="180dp"
+            android:layout_height="40dp"
+            android:id="@+id/daddrtxt"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:text="Address:"
+            android:textSize="15dp"/>
+
+        <TextView
+            android:layout_width="180dp"
+            android:layout_height="40dp"
+            android:id="@+id/daddr"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="15dp"/>
+
+    </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginLeft="-25dp">
+
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="40dp"
+                android:id="@+id/dcnttxt"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:text="Contact:"
+                android:textSize="15dp"/>
+
+        <TextView
+            android:layout_width="180dp"
+            android:layout_height="40dp"
+            android:id="@+id/dcnt"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="15dp"/>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="-10dp">
+
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="40dp"
+                android:id="@+id/dbgrptxt"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:text="Blood Group:"
+                android:textSize="15dp"/>
+
+        <TextView
+            android:layout_width="180dp"
+            android:layout_height="40dp"
+            android:id="@+id/dbgrp"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="15dp"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="430dp"
+        android:layout_marginLeft="150dp">
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:id="@+id/mapview1"
+            android:text="Get Map"/>
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+</FrameLayout>
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "40634458630",
+    "firebase_url": "https://healthdb-72ee7.firebaseio.com",
+    "project_id": "healthdb-72ee7",
+    "storage_bucket": "healthdb-72ee7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:40634458630:android:06b3968524f99c7a",
+        "android_client_info": {
+          "package_name": "com.healthcare"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "40634458630-fad0o9vstnphdqqet2p0tls753tqfjmc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLQ9Wmwt9jZ4tyfBXKeoYmLNmTna-U4IE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
